@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Alfie Pets - Atlanta Dog Walkers, Dog Walking, Pet Sitting</title>
+	<title>Alfie Pets - Payment</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
@@ -90,8 +90,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 centered">
-					<h3><span>Get In Touch</span></h3>
-					<p>We would love to hear from you and your pup! Please get in touch with any questions, or to schedule an appointment.</p>
+					<h3><span>Payment</span></h3>
 				</div>
 			</div>
 		</div>
@@ -99,41 +98,56 @@
 		<!-- Content -->
 		<div class="container content">
 			<div class="row">
-				<div class="col-md-13">
-					<h4><span>Request A Free Consultation</span></h4>
-					<h5><span>We will respond within 24 hours</span></h5>
+				<div class="col-md-16">
+                
+                
+        			 <h4><center><span>Payment Charge $50</span></center></h4>
+                 
+ 
+<form action="" method="POST" id="payment-form" class="form-horizontal" >
 
-				<form role="form" id="contact_form" action="http://forms.brace.io/info@alfiepets.com" method="post">
-					
-					<label for="InputName">Your Name</label>
-					<input type="text" class="form-control" id="InputName" placeholder="Your Name" name="user">
+    <div class="form-group">
+      <label class="col-lg-4 control-label" for="inputStandard">Card Number</label>
+      <div class="col-lg-4" style="margin-top:0px; margin-bottom:0px;" >
+        <input type="text" class="form-control card-number" size="20" autocomplete="off" placeholder="Card Number" />
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label class="col-lg-4 control-label" for="inputStandard">CVC</label>
+      <div class="col-lg-4" style="margin-top:0px; margin-bottom:0px;" >
+        <input type="text" class="form-control card-cvc" size="4" autocomplete="off" placeholder="card-cvc" />
+      </div>
+    </div>
 
-					<label for="InputName">Your Email</label>
-					<input type="text" class="form-control" id="InputEmail" placeholder="Your Email" name="user">
-					
-					<label for="InputName">Your Phone</label>
-					<input type="number" class="form-control" id="InputPhone" placeholder="Your Phone" name="user">
+    <div class="form-group">
+      <label class="col-lg-4 control-label" for="inputStandard">Expiration (MM/YYYY)</label>
+     <div class="col-lg-1" style="margin-top:0px; margin-bottom:0px;" >
+        <input type="text" class="form-control card-expiry-month" size="2" placeholder="00" />
+       </div>
+      <div class="col-lg-2" style="margin-top:0px; margin-bottom:0px;" >
+ 		<input type="text" class="form-control card-expiry-year" size="4" placeholder="0000" />
+      </div>
+    </div>
+  
 
-					<label for="InputMessage">Preferred date and time, and general info about your pup</label>
-					
-					<textarea class="form-control" id="Message" placeholder="Preferred date and time, and general info about your pup" rows="8" name="user"></textarea>
+     <div class="form-group">
+      <label class="col-lg-4 control-label" for="inputStandard">&nbsp;</label>
+      <div class="col-lg-4" style="margin-top:0px; margin-bottom:0px;" >
+        <button type="submit" class="submit-button btn btn-default btn-green" placeholder="Send Message" >Submit Payment</button>
+      </div>
+    </div>
 
-					<input type="submit" value="Send Message" placeholder="Send Message" class="btn btn-default btn-green">
-				</form>
-				</div>
-				<div class="col-md-3">
-					<h4><span>Or, Contact Us</span></h4>
-					<ul class="contact-info">
-						<li class="telephone">
-							770-712-0871
-						</li>
-						<li class="address">
-							805 Peachtree St NE. Atlanta, GA
-						</li>
-						<li class="mail">
-							<a href="mailto:info@alfiepets.com">info@alfiepets.com</a>
-						</li>
-					</ul>
+ </form>
+
+
+
+
+
+
+
+
+				 
 				</div>
 			</div>
 		</div>
